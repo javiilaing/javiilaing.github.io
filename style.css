@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80%;
+    background: pink;
+    font-family: Raleway;
+}
+
+.sidebar {
+    width: 35%;
+    background: blueviolet;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+     
+}
+
+.foto {
+    width: 200px;
+    border-radius: 50%;
+    object-fit: fill;
+    object-position: 100% 100%;
+}
+
+.big {
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+}
